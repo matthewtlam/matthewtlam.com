@@ -1,11 +1,12 @@
 import './App.css';
 import profilepic from './matthewprofile.png';
+import resume from './MatthewLamResume.pdf';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <img src={profilepic} alt="Profile Picture" />
+      <img className="Profile-pic" src={profilepic} alt="Profile Picture" />
         <p>
           Hi, I'm Matthew Lam
         </p>
@@ -19,6 +20,10 @@ function App() {
         <p>
         If you want to get in touch, you can contact me with any of the social media links on the site.
         </p>
+
+        <div className = "App">
+          <a href = {resume}> <button>View Resume</button></a>
+        </div>
         
         
       </header>
