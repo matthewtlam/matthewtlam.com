@@ -12,7 +12,7 @@ function App() {
       
       <header className="App-header">
       
-      <img className="Profile-pic" src={profilepic} alt="Profile Picture" />
+      <img className="Profile-pic" src={profilepic} alt="Profile of Matthew" />
     
       <div className="Greetings">
         Hi, I'm Matthew Lam.  
