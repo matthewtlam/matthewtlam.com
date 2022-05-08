@@ -1,30 +1,31 @@
 import './App.css';
-import profilepic from './matthewprofile.png';
-import resume from './MatthewLamResume.pdf';
+import profilepic from './images/profile.png';
+import resume from './docs/resume.pdf';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <img className="Profile-pic" src={profilepic} alt="Profile Picture" />
-        <p>
-          Hi, I'm Matthew Lam
-        </p>
+      <div className="Navbar">
+        <p className="Navigation">The website is currently under construction!</p>
+      </div>
       
+      <header className="App-header">
+      
+      <img className="Profile-pic" src={profilepic} alt="Profile Picture" />
+    
+      <div className="Greetings">
+        Hi, I'm Matthew Lam.  
+      </div>
+      <div className="IntroText">
         <p>
-        I'm a third year Computer Science from the University of Waterloo interested in product design, software architecture and project management. 
-        </p>
-        <p>
+        I'm a 3rd year Computer Science from the University of Waterloo interested in product design, software architecture and project management. 
         Some of my hobbies include bouldering, power lifting, playing video games and listening to podcasts. 
-        </p>
-        <p>
         If you want to get in touch, you can contact me with any of the social media links on the site.
         </p>
+      </div>
 
-        <div className = "App">
-          <a href = {resume}> <button>View Resume</button></a>
-        </div>
-        
+      <a href={resume}> <button className="Resume-button">View Resume</button></a>
         
       </header>
     </div>

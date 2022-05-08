@@ -13,19 +13,74 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Navigation {
+  color: white;
+}
+
+.Navbar {
+  background-color: black;
+  height: 5vh;
+  width: 100vw;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 100;
 }
 
 .Profile-pic {
   border-radius: 50%;
+  position: center;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Resume-button {
+  cursor: pointer;
+  background-color: #DE1D3E;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 2.5vw;
+  padding-left: 2.5vw;
+  font-size: 24px;
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+  display: inline-block;
+}
+
+.Resume-button:hover {
+  color: #DE1D3E;
+  background: white;
+}
+
+.IntroText {
+  color: white;
+  font-size: calc(8px + 2vmin);
+  width: 70vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 2vh;
+  text-align: center;
+  display: block;
+}
+
+.Greetings {
+  color: white;
+  text-align: center;
+  font-size: calc(16px + 2vmin);
+  width: 70vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  text-align: center;
+  display: block;
 }
