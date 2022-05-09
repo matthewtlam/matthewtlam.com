@@ -1,5 +1,3 @@
-# Getting Started with Create React App
+# matthewtlam.com
 
-Personal Site Development. Made with React framework using HTML/CSS/Javascript.
-
-Currently under construction. Please view website https://www.matthewtlam.com/.
+Personal Site Development that is currently under construction.. Made with React framework using HTML/CSS/Javascript.
