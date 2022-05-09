@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="Navbar">
-        <p className="Navigation">The website is currently under construction!</p>
+        <p className="Navigation">🚧 The website is currently under construction! 🚧</p>
       </div>
       
       <header className="App-header">
