@@ -58,7 +58,7 @@
   background: white;
 }
 
-.IntroText {
+.Intro-text {
   color: white;
   font-size: calc(8px + 2vmin);
   width: 70vw;
@@ -83,5 +83,27 @@
   padding-bottom: 2vh;
   padding-top: 2vh;
   text-align: center;
+  display: block;
+}
+
+.Contact-icon {
+  opacity: 0.4;
+  height: 6vh;
+  margin: 0 auto;
+  filter: grayscale(100);
+}
+
+.Contact-icon:hover {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+  filter: grayscale(0);
+}
+
+.Contact {
+  height: auto;
+  width: 50vw;
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+  max-width: 100%;
   display: block;
 }
