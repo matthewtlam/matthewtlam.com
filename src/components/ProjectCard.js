@@ -1,7 +1,6 @@
 import React from 'react'
 import './ProjectCard.css'
-import insertlink from '../images/link.png'
-import github from '../images/github.png'
+import insertlink from '../images/link.svg'
 
 
 function ProjectCard(props) {
@@ -13,7 +12,7 @@ function ProjectCard(props) {
   const renderedLinks = props.links.map((link, index) => {
     return (
       <a className="project-link" key={index} href={link.url} target="_blank" rel="noopener noreferrer">
-        <img src={link.type == "insert-link" ? insertlink: github}/>
+        <img src={insertlink} class="icon-link"/>
         {link.name}
       </a>
     )

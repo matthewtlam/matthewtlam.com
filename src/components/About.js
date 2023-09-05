@@ -12,8 +12,12 @@ function About() {
           <img src={pfp} alt="Profile Picture"/>
         </div>
         <div className="row">
+          <a href="https://www.linkedin.com/in/matthewtlam/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="LinkedIn Logo"/>
-          <img src={octocat} alt="Octocat Logo"/>
+          </a>
+          <a href="https://github.com/matthewtlam" target="_blank" rel="noopener noreferrer">
+            <img src={octocat} alt="Octocat Logo"/>
+          </a>
         </div>
       </div>
       <div className="text-container">

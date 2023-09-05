@@ -13,8 +13,8 @@ function Project() {
       description: "Created a Figma prototype to help first year students navigate campus life by following user-centered design methodologies",
       tags: ["Figma", "User Interviews", "Persona Maps", "Empathy Maps", "Affinity Diagrams"],
       links: [ 
-        {type: "insert-link", name: "Figma Prototype", url: ""},
-        {type: "insert-link", name: "Case Study", url: ""}
+        {name: "Figma Prototype", url: "https://www.figma.com/proto/cTADwauEqdkiOYzX7xOqwk/CS449-team-project?type=design&node-id=247-3998&t=kt1YotovfxAGgc2i-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=247%3A3998"},
+        {name: "Case Study", url: "https://vholmes49.wixsite.com/449-design-portfolio"}
       ]
     },
     {
@@ -24,8 +24,8 @@ function Project() {
       description: "Developed an Android app to empower users to track their wellness journey, access resources, and leverage AI-based insights",
       tags: ["Android", "Kotlin", "Jetpack Compose", "OpenAI", "Firebase", "Material Theme 3"],
       links: [ 
-        {type: "insert-link", name: "Demo Video", url: ""},
-        {type: "github", name: "GitHub", url: ""}
+        {name: "Demo Video", url: "https://www.youtube.com/watch?v=3A-fkjtdH6Y"},
+        {name: "GitHub", url: "https://github.com/SarmanAulakh/ece452-group2"}
       ]
     },
     {
@@ -35,8 +35,8 @@ function Project() {
       description: "Built a neural network based on the paper 'Unsupervised Monocular Depth Estimation with Left-Right Consistency' by Godard et al. Trained the neural network using 3000+ images from the KITTI dataset",
       tags: ["PyTorch", "Numpy", "Matplotlib", "Google Colab"],
       links: [ 
-        {type: "insert-link", name: "Original Paper", url: ""},
-        {type: "github", name: "GitHub", url: ""}
+        {name: "Original Paper", url: "https://arxiv.org/abs/1609.03677"},
+        {name: "GitHub", url: "https://github.com/matthewtlam/Monocular-Depth-Estimation"}
       ]
     } 
   ]
