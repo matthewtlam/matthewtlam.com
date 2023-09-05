@@ -1,0 +1,44 @@
+.image-text-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+  
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-container h1 {
+  width: 70%;
+  text-align: left;
+}
+
+.text-container p {
+  width: 70%;
+  text-align: left;
+}
+
+.text-container button {
+  background-color: #D70015;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
