@@ -1,9 +1,9 @@
 import React from 'react'
 import './About.css'
 import './Section.css'
-import pfp from "../images/pfp.png"
-import octocat from "../images/octocat.png"
-import linkedin from "../images/linkedin.png"
+import pfp from '../images/pfp.png'
+import octocat from '../images/octocat.png'
+import linkedin from '../images/linkedin.png'
 
 function About() {
   return (
@@ -32,7 +32,9 @@ function About() {
         <p>Current software interests: distributed systems, backend systems design, computer vision, and AI</p>
         <p>Current hobbies: power lifting 🏋🏻‍️, cooking 🧑‍🍳, playing video games 🎮, and listening to podcasts 🎙️</p>
         <br/>
+       <a href="https://drive.google.com/file/d/1kHUsLyWIefle88c-DV5sUif6JUK3a9I4/view?usp=sharing">
         <button>View Resume</button>
+       </a>
       </div>
     </div>
   );
