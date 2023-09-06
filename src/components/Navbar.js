@@ -3,7 +3,7 @@ import './Navbar.css'
 
 function Navbar() {
 
-  const [selectedItem, setSelectedItem] = useState(null)
+  const [selectedItem, setSelectedItem] = useState('about')
 
   useEffect(() => {
 
