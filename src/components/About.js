@@ -10,7 +10,7 @@ function About() {
     <div className="about-layout section">
       <div className="about-image-container">
         <div className="about-row">
-          <img src={pfp} alt="Profile Picture"/>
+          <img src={pfp} alt="Profile of Matthew"/>
         </div>
         <br/>
         <div className="about-row">
