@@ -1,4 +1,5 @@
 import React from 'react'
+import './Section.css'
 import ProjectCard from './ProjectCard'
 import campuscompanion from "../images/campus-companion.png"
 import mde from "../images/monocular-depth-estimation.png"
@@ -48,7 +49,7 @@ function Project() {
   })
 
   return (
-    <div>
+    <div className='section'>
       <h1>Projects</h1>
       {renderedProjects}
     </div>

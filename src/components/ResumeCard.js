@@ -3,13 +3,13 @@ import './ResumeCard.css'
 
 function ResumeCard(props) {
   return (
-    <div className="image-text-layout">
-      <div className="image-container">
-        <div className="row">
+    <div className="resume-card-layout">
+      <div className="resume-image-container">
+        <div className="resume-row">
           <img src={props.image} alt={(props.company || props.school) + " Logo"}/>
         </div>
       </div>
-      <div className="text-container">
+      <div className="resume-text-container">
         <p>
           <strong>{props.company || props.school}</strong> {props.company || props.school ? <br/>: null}
           {props.degree}{props.degree ? <br/>: null}

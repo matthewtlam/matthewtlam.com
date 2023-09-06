@@ -1,4 +1,5 @@
 import React from 'react'
+import './Section.css'
 import ResumeCard from './ResumeCard'
 import universityofwaterloo from '../images/university-of-waterloo.png'
 
@@ -21,7 +22,7 @@ function Education() {
   })
 
   return (
-    <div>
+    <div className='section'>
       <h1>Education</h1>
       {renderedEducationExperiences}
     </div>

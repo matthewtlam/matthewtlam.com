@@ -1,17 +1,19 @@
-import React from 'react';
-import './About.css';
+import React from 'react'
+import './About.css'
+import './Section.css'
 import pfp from "../images/pfp.png"
 import octocat from "../images/octocat.png"
 import linkedin from "../images/linkedin.png"
 
 function About() {
   return (
-    <div className="image-text-layout">
-      <div className="image-container">
-        <div className="row">
+    <div className="about-layout section">
+      <div className="about-image-container">
+        <div className="about-row">
           <img src={pfp} alt="Profile Picture"/>
         </div>
-        <div className="row">
+        <br/>
+        <div className="about-row">
           <a href="https://www.linkedin.com/in/matthewtlam/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="LinkedIn Logo"/>
           </a>
@@ -20,7 +22,7 @@ function About() {
           </a>
         </div>
       </div>
-      <div className="text-container">
+      <div className="about-text-container">
         <h1>Hey, I'm Matthew! 👋</h1>
         <p>I'm a recent CS grad from the University of Waterloo. 
             Previously, I worked as a Software Engineer Intern at Google, 
@@ -29,6 +31,7 @@ function About() {
         </p>
         <p>Current software interests: distributed systems, backend systems design, computer vision, and AI</p>
         <p>Current hobbies: power lifting 🏋🏻‍️, cooking 🧑‍🍳, playing video games 🎮, and listening to podcasts 🎙️</p>
+        <br/>
         <button>View Resume</button>
       </div>
     </div>

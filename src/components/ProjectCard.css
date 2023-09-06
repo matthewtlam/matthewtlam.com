@@ -1,10 +1,9 @@
 .project-card-layout {
-  /* background-color: #F2F2F4; 
-  margin-left: 10%;
-  margin-right: 10%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
   
 .project-image-container {
@@ -69,21 +68,24 @@
   font-size: 18px;
   font-weight: bold;
 }
-/* @media (max-width: 768px) {
-  .image-text-layout {
+
+@media (max-width: 768px) {
+  .project-card-layout {
     flex-direction: column; 
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .image-container {
+  .project-image-container {
     flex: none;
   }
 
-  .text-container {
+  .project-text-container {
     flex: none; 
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
-} */
+}

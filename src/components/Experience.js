@@ -1,4 +1,5 @@
 import React from 'react'
+import './Section.css'
 import WorkExperience from './ResumeCard'
 import google from "../images/google.png"
 import arcticwolf from "../images/arctic-wolf.png" 
@@ -12,7 +13,7 @@ function Experience() {
       position: "Software Engineering Intern",
       location: "New York, NY",
       duration: "Sep - Dec 2022",
-      description: "Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving."
+      description: "Google ChromeOS is a fast, secure, and versatile Linux-based operating system derived from open-source ChromiumOS and powers Chromebooks and other Chrome devices."
     },
     {
       company: "Arctic Wolf", 
@@ -20,7 +21,7 @@ function Experience() {
       position: "Software Engineering Intern",
       location: "Waterloo, ON",
       duration: "May - Aug 2022",
-      description: "Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving."
+      description: "Arctic Wolf Networks provides real-time cybersecurity threat monitoring services to help organizations protect their networks and systems by leveraging cloud technology."
     },
     {
       company: "Teledyne DALSA", 
@@ -28,7 +29,7 @@ function Experience() {
       position: "Image Processing Intern",
       location: "Waterloo, ON",
       duration: "Sep - Dec 2021",
-      description: "Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving."
+      description: "Teledyne DALSA, a subsidiary of Teledyne Technologies, creates imaging technology, developing advanced image sensors, cameras, and software for image processing and analysis."
     }
   ]
 
@@ -39,7 +40,7 @@ function Experience() {
   })
 
   return (
-    <div>
+    <div className="section">
       <h1>Experience</h1>
       {renderedWorkExperiences}
     </div>
