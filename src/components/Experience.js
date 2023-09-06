@@ -40,7 +40,7 @@ function Experience() {
   })
 
   return (
-    <div className="section">
+    <div className="section" id="experience">
       <h1>Experience</h1>
       {renderedWorkExperiences}
     </div>

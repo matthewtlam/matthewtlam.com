@@ -7,7 +7,7 @@ import linkedin from '../images/linkedin.png'
 
 function About() {
   return (
-    <div className="about-layout section">
+    <div className="about-layout section" id="about">
       <div className="about-image-container">
         <div className="about-row">
           <img src={pfp} alt="Profile of Matthew"/>

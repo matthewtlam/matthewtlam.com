@@ -49,7 +49,7 @@ function Project() {
   })
 
   return (
-    <div className='section'>
+    <div className='section' id="projects">
       <h1>Projects</h1>
       {renderedProjects}
     </div>

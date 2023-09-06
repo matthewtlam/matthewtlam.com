@@ -22,7 +22,7 @@ function Education() {
   })
 
   return (
-    <div className='section'>
+    <div className='section' id="education">
       <h1>Education</h1>
       {renderedEducationExperiences}
     </div>
