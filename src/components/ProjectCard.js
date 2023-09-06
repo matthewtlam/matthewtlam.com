@@ -12,7 +12,7 @@ function ProjectCard(props) {
   const renderedLinks = props.links.map((link, index) => {
     return (
       <a className="project-link" key={index} href={link.url} target="_blank" rel="noopener noreferrer">
-        <img src={insertlink} class="icon-link"/>
+        <img src={insertlink} alt="Link Icon" class="icon-link"/>
         {link.name}
       </a>
     )
