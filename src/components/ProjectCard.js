@@ -21,7 +21,7 @@ function ProjectCard(props) {
   return (
     <div className="project-card-layout">
       <div className="project-image-container">
-        <img src={props.image} alt={(props.company || props.school) + " Logo"}/>
+        <img src={props.image} alt={(props.company || props.school) + " Project Results"}/>
       </div>
       <div className="project-text-container">
         <p>
