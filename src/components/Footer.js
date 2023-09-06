@@ -6,6 +6,7 @@ function Footer() {
   return (
     <div className="section" id="footer">
       <p>Designed and built by Matthew Lam</p>
+      <br/>
     </div>
   );
 }
